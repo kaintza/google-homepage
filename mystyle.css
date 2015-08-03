@@ -1,8 +1,57 @@
 li {
     display: inline;
     float: right;
+    padding-left: 10px;
+}
+
+.logo-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width:20%;
+    max-height:20%;
+    z-index: -1;
+
 }
 
 .logo {
-    margin:auto;
+}
+
+.navbar {
+  padding-bottom: 125px;
+}
+
+.input {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.country {
+  text-align: center;
+  padding-left: 250px;
+}
+
+a {
+  color:black;
+  background-color:transparent;
+  text-decoration:none;
+  font-size: 15px;
+  }
+
+a:hover   {
+  background-color:transparent; text-decoration:underline
+  }
+
+.button {
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+p {
+  color: grey;
+  font-size: 20px;
+  z-index: 1;
+
 }
