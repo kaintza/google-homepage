@@ -1,20 +1,24 @@
-li {
+.padder {
     display: inline;
     float: right;
     padding-left: 10px;
 }
 
-.logo-image {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    max-width:20%;
-    max-height:20%;
-    z-index: -1;
+.padder2 {
+    display: inline;
+    float: right;
+    padding-right: 20px;
+}
 
+.padder3 {
+    display: inline;
+    float: left;
+    padding-right: 20px;
 }
 
 .logo {
+  background: url("google-logo.png") no-repeat center ;
+  padding: 50px;
 }
 
 .navbar {
@@ -29,7 +33,8 @@ li {
 
 .country {
   text-align: center;
-  padding-left: 250px;
+  padding-top: 150px;
+  padding-left: 420px;
 }
 
 a {
@@ -37,11 +42,11 @@ a {
   background-color:transparent;
   text-decoration:none;
   font-size: 15px;
-  }
+}
 
 a:hover   {
   background-color:transparent; text-decoration:underline
-  }
+}
 
 .button {
   display: inline-block;
@@ -52,6 +57,13 @@ a:hover   {
 p {
   color: grey;
   font-size: 20px;
-  z-index: 1;
+  padding-left: 50px;
+}
 
+.man {
+  border-radius: 50%;
+}
+
+.bckgrd {
+   padding-top: 400px;
 }
